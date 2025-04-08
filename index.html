@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jay's Document</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/a17fd7812b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/WhatsApp Image 2025-03-25 at 11.01.38.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portifolio">Portifolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span>James</span><br> Njihia from Kenya</h1>
+            </div>
+        </div>
+     </div>
+     <!-- ---------about------ -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/WhatsApp Image 2025-03-25 at 10.33.10.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>👋 Hello, I'm James Njihia!
+
+                        I'm a FreeCodeCamp-certified Front-End Developer passionate about building interactive and user-friendly web applications. My expertise includes React, Redux, JavaScript, HTML/CSS, Data Visualization (D3.js), and Front-End Libraries.
+                        
+                        Beyond coding, I hold a BSc. in Industrial Mathematics from J.K.U.A.T, which has sharpened my analytical and problem-solving skills.
+                        
+                        Proudly based in Kenya, I blend technology with creativity to craft seamless digital experiences. As a Christian, I value integrity, growth, and meaningful connections.
+                        
+                        🚀 Welcome to my portfolio—let’s build something amazing!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Manual Software Tester @Test.io, worked remotely</li>
+                            <li><span>2023, Jan - April</span><br>Attachment at MTRH, Eldoret</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Rational DataBase Certification Trainig at FreeCodeCamp</li>
+                            <li><span>2019 - 2023</span><br>Bsc.Industrial Mathematics at J.K.U.A.T</li>
+                            <li><span>2015 - 2018</span><br>Completed K.C.S.E at St.Joseph Boy's National School with a B(plain) and grade A in Mathematics</li>
+                            <li><span>2007 - 2014</span><br>Completed K.C.P.E at Queen Of Angels Primary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- -------------------------servives----------------- -->
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I build interactive websites using HTML/CSS and JavaScript</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crown"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I build interactive websites using HTML/CSS and JavaScript</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-rocket"></i>
+                    <h2>App Design</h2>
+                    <p>I build interactive websites using HTML/CSS and JavaScript</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- ----------------------portifolio--------------------- -->
+       <div id="portifolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/WhatsApp Image 2025-03-25 at 11.30.01 (1).jpeg">
+                    <div class="layer">
+                        <h3>Crypto Place</h3>
+                        <p>A responsive web app built with React.js that displays real-time cryptocurrency data, including prices, market trends, and coin details. </p>
+                        <a href="https://jay-me07.github.io/crypto-place/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/WhatsApp Image 2025-03-25 at 11.30.01.jpeg">
+                    <div class="layer">
+                        <h3>Netflix Demo</h3>
+                        <p>A Responsive Streaming Platform UI. A frontend replica of Netflix built with React.js, featuring dynamic content rendering, user authentication  and a seamless browsing experience.</p>
+                        <a href="https://jay-me07.github.io/Netflix-Clone/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/WhatsApp Image 2025-03-25 at 11.30.02.jpeg">
+                    <div class="layer">
+                        <h3>▶ YouTube Demo</h3>
+                        <p>A React-powered video browsing interface</p>
+                        <a href="https://jay-me07.github.io/youtube-demo/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+       </div>
+       <!-- --------------contact----------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Cantact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> jnjihiagachau07@gmail.com</p>
+                        <p><i class="fa-solid fa-mobile-screen-button"></i> 0703424896</p>
+                        <div class="social-icons">
+                            <a href="https://x.com/JamesNj97246299?s=09"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/jay_me07?igsh=anBsMmtlYmhkaWNw"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/james-njihia-1677a41bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="Images/Untitled document (2) (2) (2).pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Njihia James.<i class="fa-solid fa-fire"></i></p>
+            </div>
+        </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        };
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzXYHt4JFCsnke0E7qGSXL2PHgXguZqQN8uKY27xkJ61Z_58mFfe9vXrrMGfHcoZE2v/exec'
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!";
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
